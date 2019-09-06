@@ -1,7 +1,7 @@
 
 (function($){
   $(document).ready(function(){
-    if(window.location.href === "http://localhost:4000/" || window.location.href === "http://linhxnguyen.github.io/") {
+    if(window.location.href === "http://localhost:4000/" || window.location.href === "https://linhxnguyen.github.io/") {
       var content;
       for( var j=0; j<document.querySelectorAll(".article-entry").length;j++)
         {
