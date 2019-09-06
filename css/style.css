@@ -712,9 +712,15 @@ a.article-title:hover {
 .article-footer a:hover {
   color: #555;
 }
+.article-tag-list {
+  margin-top: 10px;
+}
 .article-tag-list-item {
   float: left;
   margin-right: 10px;
+}
+.article-tag-list-link {
+  color: #258fb8;
 }
 .article-tag-list-link:before {
   content: "#";

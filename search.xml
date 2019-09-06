@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Vì đời là những chuyến đi ...</title>
-      <link href="/2019/09/05/firstBlog/"/>
-      <url>/2019/09/05/firstBlog/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> travel </tag>
-            
-            <tag> cứđiđạiđi </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[Vì cuộc đời là những chuyến đi ...]]></title>
+    <url>%2F2019%2F09%2F06%2FsecondBlog%2F</url>
+    <content type="text"><![CDATA[Chào các bạn ^^. Sau hơn 1 ngày rưỡi suýt nổ não thì cũng đưa được cái blog củ chuối này ra ánh sáng]]></content>
+      <tags>
+        <tag>travel</tag>
+        <tag>mũinghê</tag>
+        <tag>cứđiđạiđi</tag>
+      </tags>
+  </entry>
 </search>

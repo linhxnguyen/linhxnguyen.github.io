@@ -1,13 +1,13 @@
 
 (function($){
   $(document).ready(function(){
-    if(window.location.href === "http://localhost:4000/") {
+    if(window.location.href === "http://localhost:4000/" || window.location.href === "http://linhxnguyen.github.io") {
       var content;
       for( var j=0; j<document.querySelectorAll(".article-entry").length;j++)
         {
           content = document.querySelectorAll(".article-entry")[j]
           var length = content.childNodes.length
-          for (var i=4;i< length;i++) {
+          for (var i=6;i< length;i++) {
             content.removeChild(content.lastChild.previousSibling.previousSibling);
         } 
     }  
@@ -57,7 +57,7 @@
       encodedUrl = encodeURIComponent(url),
       id = 'article-share-box-' + $this.attr('data-id'),
       offset = $this.offset();
-
+    console.log(url)
     if ($('#' + id).length){
       var box = $('#' + id);
 
