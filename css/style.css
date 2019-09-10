@@ -547,6 +547,7 @@ body {
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
+  padding: 0 5%;
 }
 a.article-title:hover {
   color: #258fb8;
@@ -566,7 +567,7 @@ a.article-title:hover {
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 1.6em 5%;
 }
 .article-entry h1,
 .article-entry h2,
@@ -714,6 +715,8 @@ a.article-title:hover {
 }
 .article-tag-list {
   margin-top: 10px;
+  width: 90%;
+  margin: auto;
 }
 .article-tag-list-item {
   float: left;
@@ -721,6 +724,7 @@ a.article-title:hover {
 }
 .article-tag-list-link {
   color: #258fb8;
+  padding: 0 5%;
 }
 .article-tag-list-link:before {
   content: "#";
@@ -946,6 +950,26 @@ a.article-title:hover {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+.image-description {
+  width: 200px;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+.video--big {
+  width: 100%;
+}
+.des {
+  width: 300px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+}
+.writing {
+  padding: 0;
 }
 #comments {
   background: #fff;

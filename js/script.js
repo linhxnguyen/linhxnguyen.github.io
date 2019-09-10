@@ -1,13 +1,20 @@
 
 (function($){
   $(document).ready(function(){
+    console.log("content")
     if(window.location.href === "http://localhost:4000/" || window.location.href === "https://linhxnguyen.github.io/") {
       var content;
       for( var j=0; j<document.querySelectorAll(".article-entry").length;j++)
         {
           content = document.querySelectorAll(".article-entry")[j]
           var length = content.childNodes.length
+          console.log(content.lastChild.previousSibling.previousSibling)
+          if (!$(".des")[0])  content.removeChild(content.lastChild) 
+          else if (!$(".writing")[0])  content.removeChild(content.lastChild)
+          else 
           for (var i=6;i< length;i++) {
+            console.log(content.lastChild.previousSibling.previousSibling)
+            console.log("alo")
             content.removeChild(content.lastChild.previousSibling.previousSibling);
         } 
     }  
