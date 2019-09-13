@@ -365,12 +365,12 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 50px;
+  font-size: 52px;
   line-height: 50px;
   letter-spacing: 2px;
 }
@@ -378,6 +378,7 @@ body {
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 #subtitle-wrap {
   margin-top: 20px;
@@ -390,7 +391,6 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -603,7 +603,6 @@ a.article-title:hover {
 .article-entry img,
 .article-entry video {
   max-width: 100%;
-  height: auto;
   display: block;
   margin: auto;
 }
@@ -977,6 +976,15 @@ a.article-title:hover {
 }
 .align--img {
   width: 94%;
+}
+@media screen and (max-width: 479px) {
+  .align--img {
+    width: 100%;
+    height: 180px;
+  }
+}
+[itemprop="name"] {
+  margin-bottom: 10px;
 }
 #comments {
   background: #fff;
